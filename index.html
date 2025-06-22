@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Olabamiji - CV</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+        .cv-container {
+            max-width: 900px;
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+        h2 {
+            border-bottom: 2px solid #e5e7eb; /* Light gray border for sections */
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+        ul {
+            list-style: none; /* Remove default list bullets */
+            padding-left: 0;
+        }
+        ul li:before {
+            content: '•'; /* Custom bullet point */
+            color: #3b82f6; /* Blue color for bullets */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        @media (max-width: 768px) {
+            .cv-container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 2rem !important; /* Adjust font size for smaller screens */
+            }
+            h2 {
+                font-size: 1.5rem !important;
+            }
+            .contact-info span {
+                display: block; /* Stack contact info on mobile */
+                margin-bottom: 0.5rem;
+            }
+            .contact-info span:last-child {
+                margin-bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Header Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-extrabold text-gray-800 mb-2 rounded-lg">JOSHUA OLABAMIJI</h1>
+            <div class="contact-info text-gray-600 text-sm md:text-base flex flex-col md:flex-row md:justify-center md:space-x-4">
+                <span>4, Adeola Crescent, Leventis, Mokola, Ibadan, Oyo State, Nigeria</span>
+                <span>|</span>
+                <span>+2347033307822</span>
+                <span>|</span>
+                <span class="break-words">joshhorlab@gmail.com</span>
+                <span>|</span>
+                <a href="https://www.linkedin.com/in/joshua-oluwatobiloba-384243261" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">LinkedIn: Joshua Oluwatobiloba</a>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700">SUMMARY</h2>
+            <p class="text-gray-700 leading-relaxed">
+                Ambitious and results-oriented professional with a Bachelor's degree in Water Resources Management and Agrometeorology (Hydrology Option). Proven ability to manage projects, analyze data, and collaborate effectively, with hands-on experience in borehole drilling, water point maintenance, and hydrological research. Seeking to leverage strong analytical and problem-solving skills to contribute to sustainable water resource management solutions.
+            </p>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700">WORK EXPERIENCE</h2>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-medium text-gray-800">Industrial Training</h3>
+                <p class="text-gray-600 italic">Ogun-Oshun River Basin Development Authority (OORBDA)</p>
+                <ul class="mt-2 space-y-1 text-gray-700">
+                    <li>Participated in on-site <strong class="text-blue-700">borehole drilling and repair</strong>, contributing to the successful completion of over <strong class="text-blue-700">5 boreholes</strong> and addressing maintenance issues for <strong class="text-blue-700">multiple water points</strong>.</li>
+                    <li>Collaborated on <strong class="text-blue-700">3+ borehole drilling proposals</strong>, enhancing project acquisition efforts for various companies.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-medium text-gray-800">Class Teacher (NYSC)</h3>
+                <p class="text-gray-600 italic">Comprehensive Secondary School Okabo, Kogi State | 2024-2025</p>
+                <ul class="mt-2 space-y-1 text-gray-700">
+                    <li>Designed and delivered engaging lessons using diverse resources, demonstrating strong organizational and presentation abilities.</li>
+                    <li>Facilitated student learning through structured lesson plans and effective teaching strategies, showcasing strong planning and project management skills.</li>
+                    <li>Collaborated with fellow educators to create interdisciplinary learning activities, honing skills in simplifying complex information, relevant for communicating hydrological data.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700">EDUCATION</h2>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-medium text-gray-800">Bachelor of Water Resources Management and Agrometeorology</h3>
+                <p class="text-gray-600 italic">(Hydrology Option)</p>
+                <p class="text-gray-600">Federal University of Agriculture, Abeokuta | April 2017 - Dec 2023</p>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-medium text-gray-800 mb-2">Academic Research:</h3>
+                <h4 class="text-lg font-medium text-gray-700">Characterization of Salinity and Sediment Quality on River Ogun at Saki</h4>
+                <p class="text-gray-600 italic">2023</p>
+                <ul class="mt-2 space-y-1 text-gray-700">
+                    <li>Utilized field sampling and laboratory analysis techniques to assess salinity levels and sediment characteristics of River Ogun.</li>
+                    <li>Identified specific trends in water quality parameters and their potential impact on the river ecosystem.</li>
+                    <li>Developed recommendations based on findings to inform future water resource management strategies in the region.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700">SKILLS</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+                <div>
+                    <h3 class="font-semibold text-lg text-gray-800 mb-1">Technical:</h3>
+                    <ul class="space-y-1">
+                        <li>Microsoft Word</li>
+                        <li>Data Collection & Analysis</li>
+                        <li>Report Writing</li>
+                        <li>Environmental Monitoring</li>
+                        <li><em class="text-gray-500">(Consider adding specific hydrology software here like ArcGIS/QGIS, HEC-RAS/MODFLOW, R/Python libraries if proficient, or mention willingness to learn)</em></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg text-gray-800 mb-1">Communication:</h3>
+                    <ul class="space-y-1">
+                        <li>Excellent Verbal & Written Communication</li>
+                        <li>Effective Presentations</li>
+                        <li>Strong Interpersonal & Relationship Management</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg text-gray-800 mb-1">Organizational & Project Management:</h3>
+                    <ul class="space-y-1">
+                        <li>Exceptional Organizational & Strategic Planning</li>
+                        <li>Time Management & Task Prioritization</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg text-gray-800 mb-1">Teamwork:</h3>
+                    <ul class="space-y-1">
+                        <li>Collaborative Problem-Solving</li>
+                        <li>Team Leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700">CERTIFICATIONS</h2>
+            <ul class="mt-2 space-y-1 text-gray-700">
+                <li>Health, Safety and Environment (HSE 1, 2 and 3) - Pearson VUE (2024)</li>
+                <li>Aspire Leaders Program (ALP) - Harvard University (2025)</li>
+                <li>Citizenship and Leadership Training Course - Sea School, Apapa, Lagos (2020)</li>
+                <li>Video Surveillance System (CCTV) - WorldClass ICT</li>
+                <li>The Fundamentals of English Grammar - The Springsgates Grammar School (2024)</li>
+            </ul>
+        </section>
+
+        <!-- Additional Information Section -->
+        <section>
+            <h2 class="text-2xl font-semibold text-gray-700">ADDITIONAL INFORMATION</h2>
+
+            <div class="mb-4">
+                <h3 class="font-semibold text-lg text-gray-800 mb-1">Languages:</h3>
+                <p class="text-gray-700">English, Yoruba</p>
+            </div>
+
+            <div>
+                <h3 class="font-semibold text-lg text-gray-800 mb-1">Leadership & Extracurricular Activities:</h3>
+                <ul class="mt-2 space-y-1 text-gray-700">
+                    <li>President, Health Education Community Development Service (2024-2025)</li>
+                    <li>Overall Parade Commander, NYSC Asaya Camp, Kogi State (2024)</li>
+                    <li>Secretary General, Man O'War FUNAAB Command (2022-2023)</li>
+                    <li>Platoon Leader, NYSC, Asaya Camp, Kogi State (2024)</li>
+                    <li>Secretary - Health Education Community Development Service (2024)</li>
+                    <li>Special Duty Officer - Man O 'War FUNAAB Command (2021-2022)</li>
+                    <li>Parade Commander - Man O' War FUNAAB Command (2020-2021)</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
